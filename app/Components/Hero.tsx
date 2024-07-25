@@ -21,9 +21,9 @@ const icons = [{
 
 const Hero = () => {
     return (
-        <div className='flex flex-col gap-y-3 pt-40 md:pt-0 md:justify-center items-center h-full'>
+        <div className='flex flex-col gap-y-3 pt-40  items-center h-full'>
         <motion.h1 initial={{x:-2000}} animate={{x:0}}
-        transition={{duration:"2"
+        transition={{duration:"1"
         }}
         className='text-[24px] md:text-6xl font-bold text-gray-100'>Hi, I 'm <span className="text-teal-400">Syed Shahmir Sultan</span></motion.h1>
         <motion.p  initial={{x:-2000}} animate={{x:0}}
