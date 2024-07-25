@@ -2,19 +2,30 @@
 import React, { useState } from 'react';
 import { RxHamburgerMenu } from "react-icons/rx";
 import { IoMdClose } from "react-icons/io";
-
+import Link from 'next/link'
 const Hamburger = () => {
     const [isOpen,setIsOpen] = useState(false);
 
     function toggle(){
-        setIsOpen(true);
+        setIsOpen(!isOpen);
     }
 
     return (
-       <div className='flex md:hidden items-center ml-8'>
-{isOpen ?(<RxHamburgerMenu color={'white'} onClick={()=> setIsOpen(false)}/>) : (<IoMdClose onClick={toggle} color={'white'} />
-) }
+        <section>
+       <div className='flex flex-col ml-20 md:hidden justify-center '>
+{isOpen ?   (<IoMdClose size={22} onClick={toggle} color={'white'}/>) :(<RxHamburgerMenu size={22} color={'white'} onClick={toggle}/>) 
+ }
        </div> 
+       {
+        isOpen == true ? (<div className="absolute  pt-4 h-48 bg-gray-950 self-center w-40 flex flex-col items-center  gap-y-2 text-lg font-semibold">
+            <Link href="" className="text-gray-500 hover:text-white">About</Link>
+            <Link href="" className="text-gray-500 hover:text-white">Skills</Link>
+            <Link href="" className="text-gray-500 hover:text-white">Experience</Link>
+            <Link href="" className="text-gray-500 hover:text-white">Contact</Link>
+
+        </div>) :""
+       }
+       </section>
     );
 }
 
