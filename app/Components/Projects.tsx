@@ -29,7 +29,7 @@ const Projects = () => {
                 variants={fadeInVariants}
                 className="block h-3 rounded-full bg-gradient-to-r from-teal-500 to-teal-700 w-44 md:w-72"
             ></motion.span>
-            <motion.div className="mt-16 w-full p-2 md:p-0 md:max-w-7xl md:mx-auto grid grid-cols-1 md:grid-cols-2 md:gap-x-16 gap-y-20">
+            <motion.div className="mt-16 w-full p-2 md:p-0 md:max-w-7xl md:mx-auto grid grid-cols-1 xl:grid-cols-2 md:gap-x-16 gap-y-20 justify-items-center xl:justify-items-stretch">
                 {
                     websiteDetails.map((item, index) => {
                         return (

@@ -8,7 +8,7 @@ import Projects from './Components/Projects';
 
 const Home = () => {
   return (
-  <main className="min-h-screen w-full bg-gradient-to-r from-black  to-gray-900">
+  <main className="min-h-screen w-full  bg-gradient-to-r from-black  to-gray-900">
       <Hero/>
       <About/>
       <Skills/>
