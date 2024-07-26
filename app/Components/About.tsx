@@ -26,7 +26,7 @@ const About = () => {
                 whileInView="visible"
                 viewport={{ once: true }}
                 variants={fadeInVariants}
-                className="block h-3 rounded-full bg-gradient-to-r ml-14 md:ml-0 from-teal-500 to-teal-700 w-48 md:w-80"
+                className="block h-3 rounded-full bg-gradient-to-r  from-teal-500 to-teal-700 w-48 md:w-80"
             ></motion.span>
             <motion.div 
                 initial="hidden"
@@ -56,10 +56,10 @@ const About = () => {
                         variants={fadeInVariants}
                         className="text-lg md:text-xl pr-2 md:pr-4 font-medium text-gray-100"
                     >
-                        I am a 17 year old High School 3rd year student who is passionate about 
+                        I am a 17 years old High School 3rd year student who is passionate about 
                         <motion.span className="text-teal-400 font-bold"> Programming </motion.span> 
                          and 
-                        <motion.span className="font-bold text-teal-400"> Technology</motion.span>.
+                        <motion.span className="font-bold text-teal-400"> AI</motion.span>.
                     </motion.p>
                     <h2 className="text-white mt-2 tracking-wider font-extrabold text-xl md:text-2xl">
                         Technologies I work with:
@@ -70,45 +70,45 @@ const About = () => {
                         whileInView="visible"
                         viewport={{ once: true }}
                         variants={fadeInVariants}
-                        className="mt-1 text-xl text-white font-medium"
+                        className="mt-1 text-lg md:text-xl text-white font-medium"
                     >
-                        ● <motion.span className="text-teal-400 font-extrabold">Frontend</motion.span>: HTML5, CSS3, JavaScript, TypeScript, React, Next.js, Tailwind CSS
+                        ● <motion.span className="text-teal-400 font-extrabold">Frontend </motion.span>: HTML, CSS, JavaScript, TypeScript, React, Next.js, Tailwind CSS
                     </motion.p>
                     <motion.p 
                         initial="hidden"
                         whileInView="visible"
                         viewport={{ once: true }}
                         variants={fadeInVariants}
-                        className="mt-1 text-xl text-white font-medium"
+                        className="mt-1 text-lg md:text-xl text-white font-medium"
                     >
-                        ● <motion.span className="text-teal-400 font-extrabold">Backend</motion.span>: Node.js, FastAPI, Python
+                        ● <motion.span className="text-teal-400 font-extrabold">Backend </motion.span>: Node.js, FastAPI, Python
                     </motion.p>
                     <motion.p 
                         initial="hidden"
                         whileInView="visible"
                         viewport={{ once: true }}
                         variants={fadeInVariants}
-                        className="mt-1 text-xl text-white font-medium"
+                        className="mt-1 text-lg md:text-xl text-white font-medium"
                     >
-                        ● <motion.span className="text-teal-400 font-extrabold">Databases</motion.span>: Postgresql, Drizzle ORM, SQLModel
+                        ● <motion.span className="text-teal-400 font-extrabold">Databases </motion.span>: Postgresql, Drizzle ORM, SQLModel
                     </motion.p>
                     <motion.p 
                         initial="hidden"
                         whileInView="visible"
                         viewport={{ once: true }}
                         variants={fadeInVariants}
-                        className="mt-1 text-xl text-white font-medium"
+                        className="mt-1 text-lg md:text-xl text-white font-medium"
                     >
-                        ● <motion.span className="text-teal-400 font-extrabold">Tools & Services</motion.span>: Stripe, Sanity, Poetry, Kinde Auth
+                        ● <motion.span className="text-teal-400 font-extrabold">Tools & Services </motion.span>: Stripe, Sanity, Poetry, Kinde Auth
                     </motion.p>
                     <motion.p 
                         initial="hidden"
                         whileInView="visible"
                         viewport={{ once: true }}
                         variants={fadeInVariants}
-                        className="mt-1 text-xl text-white font-medium"
+                        className="mt-1 text-lg md:text-xl text-white font-medium"
                     >
-                        ● <motion.span className="text-teal-400 font-extrabold">Libraries</motion.span>: Shadcn UI , Daisy UI
+                        ● <motion.span className="text-teal-400 font-extrabold">Libraries </motion.span>: Shadcn UI , Daisy UI
                     </motion.p>
                     <motion.p 
                         initial="hidden"

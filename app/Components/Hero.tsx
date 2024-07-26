@@ -21,7 +21,7 @@ const icons = [{
 
 const Hero = () => {
     return (
-        <div className='flex flex-col gap-y-3 pt-40  items-center h-full'>
+        <div className='flex flex-col gap-y-3 pt-44  items-center h-full'>
         <motion.h1 initial={{x:-2000}} animate={{x:0}}
         transition={{duration:"1"
         }}

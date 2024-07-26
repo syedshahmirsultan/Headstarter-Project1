@@ -26,7 +26,7 @@ const Skills = () => {
                 Skills
             </h1>
             <span 
-                className="block h-3 rounded-full bg-gradient-to-r ml-14 md:ml-0 from-teal-500 to-teal-700 w-32 md:w-52"
+                className="block h-3 rounded-full bg-gradient-to-r from-teal-500 to-teal-700 w-32 md:w-52"
             ></span>
             <ul className="max-w-4xl mx-auto flex mt-12 flex-wrap justify-center gap-2 text-lg text-gray-800">
                 {skillsData.map((skill, index) => {
