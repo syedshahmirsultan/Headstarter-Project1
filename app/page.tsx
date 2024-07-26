@@ -14,6 +14,7 @@ const Home = () => {
       <Skills/>
       <Experience/>
       <Projects/>
+      <Contact/>
     </main>
   );
 }

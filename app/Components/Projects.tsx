@@ -39,7 +39,7 @@ const Projects = () => {
                                     whileInView="visible"
                                     viewport={{ once: true }}
                                     variants={fadeInVariants}
-                                    className="w-full p-2 h-auto md:w-[600px] md:h-[800px] rounded-md bg-black border border-teal-400 flex flex-col gap-y-8"
+                                    className="w-full hover:scale-105 duration-500 p-2 h-auto md:w-[600px] md:h-[800px] rounded-md bg-black border border-teal-400 flex flex-col gap-y-8"
                                 >
                                     <Image src={item.imageUrl} alt={item.title} width={600} height={600} className='w-full h-[200px] md:h-[600px]' />
                                     <motion.h2
