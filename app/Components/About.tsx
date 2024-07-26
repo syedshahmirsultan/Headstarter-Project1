@@ -11,7 +11,7 @@ const fadeInVariants = {
 
 const About = () => {
     return (
-        <section className="ml-8 pt-40 md:pt-60 flex flex-col items-center">
+        <section id="about" className="ml-8 pt-40 md:pt-60 flex flex-col items-center">
             <motion.h1 
                 initial="hidden"
                 whileInView="visible"
@@ -61,8 +61,8 @@ const About = () => {
                          and 
                         <motion.span className="font-bold text-teal-400"> Technology</motion.span>.
                     </motion.p>
-                    <h2 className="text-white mt-2 font-bold text-lg md:text-xl">
-                        𝐓𝐞𝐜𝐡𝐧𝐨𝐥𝐨𝐠𝐢𝐞𝐬 𝐈 𝐰𝐨𝐫𝐤 𝐰𝐢𝐭𝐡:
+                    <h2 className="text-white mt-2 tracking-wider font-extrabold text-xl md:text-2xl">
+                        Technologies I work with:
                     </h2>
 
                     <motion.p 
@@ -72,7 +72,7 @@ const About = () => {
                         variants={fadeInVariants}
                         className="mt-1 text-xl text-white font-medium"
                     >
-                        ● <motion.span className="text-teal-400 font-semibold">𝐅𝐫𝐨𝐧𝐭𝐞𝐧𝐝</motion.span>: HTML5, CSS3, JavaScript, TypeScript, React, Next.js, Tailwind CSS
+                        ● <motion.span className="text-teal-400 font-extrabold">Frontend</motion.span>: HTML5, CSS3, JavaScript, TypeScript, React, Next.js, Tailwind CSS
                     </motion.p>
                     <motion.p 
                         initial="hidden"
@@ -81,7 +81,7 @@ const About = () => {
                         variants={fadeInVariants}
                         className="mt-1 text-xl text-white font-medium"
                     >
-                        ● <motion.span className="text-teal-400 font-semibold">𝐁𝐚𝐜𝐤𝐞𝐧𝐝</motion.span>: Node.js, FastAPI, Python
+                        ● <motion.span className="text-teal-400 font-extrabold">Backend</motion.span>: Node.js, FastAPI, Python
                     </motion.p>
                     <motion.p 
                         initial="hidden"
@@ -90,7 +90,7 @@ const About = () => {
                         variants={fadeInVariants}
                         className="mt-1 text-xl text-white font-medium"
                     >
-                        ● <motion.span className="text-teal-400 font-semibold">𝐃𝐚𝐭𝐚𝐛𝐚𝐬𝐞𝐬</motion.span>: Postgresql, Drizzle ORM, SQLModel
+                        ● <motion.span className="text-teal-400 font-extrabold">Databases</motion.span>: Postgresql, Drizzle ORM, SQLModel
                     </motion.p>
                     <motion.p 
                         initial="hidden"
@@ -99,7 +99,16 @@ const About = () => {
                         variants={fadeInVariants}
                         className="mt-1 text-xl text-white font-medium"
                     >
-                        ● <motion.span className="text-teal-400 font-semibold">𝐓𝐨𝐨𝐥𝐬 & 𝐒𝐞𝐫𝐯𝐢𝐜𝐞𝐬</motion.span>: Stripe, Sanity, Poetry, Kinde Auth
+                        ● <motion.span className="text-teal-400 font-extrabold">Tools & Services</motion.span>: Stripe, Sanity, Poetry, Kinde Auth
+                    </motion.p>
+                    <motion.p 
+                        initial="hidden"
+                        whileInView="visible"
+                        viewport={{ once: true }}
+                        variants={fadeInVariants}
+                        className="mt-1 text-xl text-white font-medium"
+                    >
+                        ● <motion.span className="text-teal-400 font-extrabold">Libraries</motion.span>: Shadcn UI , Daisy UI
                     </motion.p>
                     <motion.p 
                         initial="hidden"
