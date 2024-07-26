@@ -11,7 +11,7 @@ const fadeInVariants = {
 
 const About = () => {
     return (
-        <section className="ml-8 pt-40 md:pt-60">
+        <section className="ml-8 pt-40 md:pt-60 flex flex-col items-center">
             <motion.h1 
                 initial="hidden"
                 whileInView="visible"
@@ -26,14 +26,14 @@ const About = () => {
                 whileInView="visible"
                 viewport={{ once: true }}
                 variants={fadeInVariants}
-                className="block h-2 rounded-full bg-gradient-to-r ml-14 md:ml-0 from-teal-500 to-teal-700 w-48 md:w-80"
+                className="block h-3 rounded-full bg-gradient-to-r ml-14 md:ml-0 from-teal-500 to-teal-700 w-48 md:w-80"
             ></motion.span>
             <motion.div 
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: true }}
                 variants={fadeInVariants}
-                className="mt-16 flex flex-col md:flex-row gap-y-16 md:justify-between"
+                className="mt-20 flex flex-col md:flex-row gap-y-16 md:justify-between"
             >
                 <Image
                     src="/images/shahmir.png"
