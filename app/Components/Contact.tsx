@@ -35,9 +35,12 @@ const Contact = () => {
             
         toast.success(" Message sent Successfully !")
         }
+        else if (result.error){
+            toast.error(result.error);
+        }
     }
     return (
-        <section id="about" className="ml-8 pt-40 md:pt-60 flex flex-col items-center">
+        <section id="contact" className=" pt-40 pb-20 md:pt-60 flex flex-col items-center">
             <motion.h1 
                 initial="hidden"
                 whileInView="visible"
@@ -45,18 +48,34 @@ const Contact = () => {
                 variants={fadeInVariants}
                 className="text-4xl md:text-6xl font-bold text-white text-center md:text-start tracking-wider mb-2"
             >
-                About Me
+                Contact Me
             </motion.h1>
             <motion.span 
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: true }}
                 variants={fadeInVariants}
-                className="block h-3 rounded-full bg-gradient-to-r  from-teal-500 to-teal-700 w-48 md:w-80"
+                className="block h-3 rounded-full bg-gradient-to-r  from-teal-500 to-teal-700 w-56 md:w-96"
             ></motion.span>
 
             <div className="mt-20">
+   <form onSubmit={handleSubmit} className="flex flex-col items-center gap-y-4 md:gap-y-8">
+    <div className="flex flex-col gap-y-2">
+    <p className="text-white font-bold text-2xl">Name </p>
+    <input type="text" placeholder="Enter your Name" name='name' required  className=" border-2 rounded-md border-teal-500 text-lg h-12 w-full p-1 md:p-0 md:w-80 outline-teal-400 bg-transparent text-white text-center"/>
+    </div>
+    <div className="flex flex-col gap-y-2">
+    <label className="text-white font-bold text-2xl">Email </label>
+    <input type="email" placeholder="Enter your email" name='email' required  className=" border-2 rounded-md border-teal-500 text-lg h-12 w-full p-1 md:p-0 md:w-80 outline-teal-400 bg-transparent text-white text-center"/>
+    </div>
+    
+    <div className="flex flex-col gap-y-2">
+    <label className="text-white font-bold text-2xl">Message </label>
+    <textarea  placeholder="Enter your message" name='message' className='border-2 border-teal-500 rounded-md  text-white h-48 w-full p-1 md:p-0 md:w-80 text-center outline-teal-600 text-lg bg-transparent'/>
+</div>
 
+<motion.button type="submit" className=" mt-2 md:mt-4 cursor-pointer h-12 w-40 rounded-md bg-white text-black flex justify-center items-center text-md font-semibold hover:bg-gradient-r from-teal-500 to-teal-700 hover:text-white"></motion.button>
+   </form>
             </div>
             </section>
     );
