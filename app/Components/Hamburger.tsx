@@ -18,11 +18,11 @@ const Hamburger = () => {
        </div> 
        {
         isOpen == true ? (<div className="absolute  pt-4 h-48 bg-gray-950 rounded-md self-center w-40 flex flex-col items-center  gap-y-2 text-md font-semibold">
-            <Link href="" className="text-gray-500 hover:text-white">About</Link>
-            <Link href="" className="text-gray-500 hover:text-white">Skills</Link>
-            <Link href="" className="text-gray-500 hover:text-white">Experience</Link>
-            <Link href="" className="text-gray-500 hover:text-white">Projects</Link>
-            <Link href="" className="text-gray-500 hover:text-white">Contact</Link>
+            <Link href="#about" className="text-gray-500 hover:text-white">About</Link>
+            <Link href="#skills" className="text-gray-500 hover:text-white">Skills</Link>
+            <Link href="#experience" className="text-gray-500 hover:text-white">Experience</Link>
+            <Link href="#projects" className="text-gray-500 hover:text-white">Projects</Link>
+            <Link href="#contact" className="text-gray-500 hover:text-white">Contact</Link>
 
         </div>) :""
        }
