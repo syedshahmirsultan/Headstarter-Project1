@@ -12,7 +12,7 @@ const icons = [{
     icon:<FaGithub size={18}/>
 },
 {
-    url:"https://www.facebook.com/profile.php?id=100093155077830",
+    url:"https://www.linkedin.com/in/syedshahmirsultan/",
     icon:<FaFacebookF size={18}/>
 }
 ]
