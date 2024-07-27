@@ -21,7 +21,7 @@ const icons = [{
 
 const Footer = () => {
     return (
-        <section  className="h-auto p-2 md:p-0 md:h-28 pt-4 bg-slate-800 w-full flex flex-col md:flex-row gap-y-6 md:gap-x-80">
+        <section  className="h-auto p-2 md:p-0 md:h-24 pt-4 bg-slate-900 w-full flex flex-col md:flex-row gap-y-6 md:gap-x-80">
         <div className='flex flex-col items-center md:justify-start md:flex-row gap-y-2 gap-x-1 ml-4 pt-4'>
         <h2 className="text-white font-bold text-xl">Email : </h2>
         <p className='text-teal-400 text-lg font-semibold'> syedshahmirsultan@gmail.com</p>
