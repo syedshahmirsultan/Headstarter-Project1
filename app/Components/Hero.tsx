@@ -3,7 +3,7 @@ import {motion} from 'framer-motion'
 import Link from 'next/link';
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
-import { FaFacebookF } from "react-icons/fa";
+import { FaFacebookF,FaExternalLinkAlt  } from "react-icons/fa";
 
 const icons = [{
     url:"https://www.linkedin.com/in/syedshahmirsultan/",
@@ -47,8 +47,11 @@ const Hero = () => {
      
        </div> 
 
-       <motion.button initial={{x:-2000}} animate={{x:0}}
-                transition={{duration:"2"}} className=" mt-6 py-4 px-14 border-2 border-white hover:border-teal-300  text-gray-950 hover:bg-gradient-to-r from-teal-500  to-teal-900  hover:text-gray-200  md:text-xl font-semibold bg-white rounded-md">Resume</motion.button>
+       <Link href="/Shahmir-Resume.pdf"><motion.button initial={{x:-2000}} animate={{x:0}}
+                transition={{duration:"2"}} className=" flex gap-x-4 items-center mt-6 py-4 px-14 border-2 border-white hover:border-teal-300  text-gray-950 hover:bg-gradient-to-r from-teal-500  to-teal-900  hover:text-gray-200  md:text-xl font-semibold bg-white rounded-md">
+                    Resume <FaExternalLinkAlt size={18} />
+
+                    </motion.button></Link>
         </div>
     );
 }

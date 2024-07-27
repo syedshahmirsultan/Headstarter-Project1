@@ -9,7 +9,7 @@
 "Python",
 "Fast API",
 "Node.js",
-"Postgresql",
+"PostgreSQL",
 "Drizzle ORM",
 "SQLModel",
 "Stripe",
