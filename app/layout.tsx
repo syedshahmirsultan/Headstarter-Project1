@@ -4,6 +4,7 @@ import "./globals.css";
 import NavBar from "./Components/NavBar";
 import { Toaster } from "react-hot-toast";
 import Footer from "./Components/Footer";
+import Script from 'next/script'
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,6 +20,16 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head> 
+       <Script src="https://www.googletagmanager.com/gtag/js?id=G-CXHVT33QQS"/> 
+        <Script type="google-analytics">
+          {    window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+         gtag('js', new Date());
+          gtag('config', 'G-CXHVT33QQS');
+          }
+        </Script>
+      </head>
       <body className={inter.className}>
       <Toaster
   position="top-center"
