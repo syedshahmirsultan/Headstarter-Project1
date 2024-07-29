@@ -1,12 +1,16 @@
 "use client"
 import toast from 'react-hot-toast';
+import {useState} from 'react'
 
 const Contact = () => {
+const [isLoading,setIsLoading] = useState(false)
 
     //Handle Submit Function
     async function handleSubmit(event:any) {
+        setIsLoading(true);
         event.preventDefault();
-        const formData = new FormData(event.target);
+        const form = event.target.form
+        const formData = new FormData(form);
 
         formData.append("access_key", "907c3e71-4a15-4c8d-a342-9a8853f75863");
 
@@ -23,8 +27,8 @@ const Contact = () => {
         });
         const result = await response.json();
         if (result.success) {
-            
-        toast.success(" Message sent Successfully !")
+        toast.success(" Message sent Successfully !");
+        setIsLoading(false);
         }
         else if (result.error){
             toast.error(result.error);
@@ -59,7 +63,12 @@ const Contact = () => {
     <textarea placeholder="Enter your message" name='message' className='border-2 border-teal-500 rounded-md  text-white h-48 w-full p-1 md:p-0 md:w-80 text-center outline-teal-600 text-lg bg-transparent'/>
 </div>
 
-<button  type="submit" className=" mt-2 md:mt-4 cursor-pointer h-12 w-48 rounded-md bg-white text-black flex justify-center items-center text-md font-semibold hover:bg-gradient-to-r from-teal-500  to-teal-900 hover:text-white"> Submit</button>
+<button disabled={isLoading} onClick={handleSubmit} type="submit" className=" mt-2 md:mt-4 cursor-pointer h-12 w-48 rounded-md bg-white text-black flex justify-center items-center text-md font-semibold hover:bg-gradient-to-r from-teal-500  to-teal-900 hover:text-white"> 
+    {
+    isLoading ? "Sending ..." : "Send"
+    }
+    
+    </button>
    </form>
             </div>
             </section>
