@@ -80,7 +80,7 @@ const Experience = () => {
                     <Details 
                         position={'Software Engineering Fellow'} 
                         company={'Headstarter AI'} 
-                        time={'22nd July 2024 - 9th September 2024'} 
+                        time={'July 2024 - September 2024'} 
                         description={'This is a 7-week remote fellowship program during which we have to complete tasks on a weekly basis. Our final project is to create a product where we aim to achieve one of the following: get 1000 people on a waitlist, create 1000 accounts, or generate $1000 in revenue.'}
                     />
                 </motion.ul>
