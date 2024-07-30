@@ -60,7 +60,7 @@ const [isLoading,setIsLoading] = useState(false)
     
     <div className="flex flex-col gap-y-2">
     <label className="text-white font-bold text-2xl">Message </label>
-    <textarea placeholder="Enter your message" name='message' className='border-2 border-teal-500 rounded-md  text-white h-48 w-full p-1 md:p-0 md:w-80 text-center outline-teal-600 text-lg bg-transparent'/>
+    <textarea placeholder="Enter your message" name='message' required className='border-2 border-teal-500 rounded-md  text-white h-48 w-full p-1 md:p-0 md:w-80 text-center outline-teal-600 text-lg bg-transparent'/>
 </div>
 
 <button disabled={isLoading} onClick={handleSubmit} type="submit" className=" mt-2 md:mt-4 cursor-pointer h-12 w-48 rounded-md bg-white text-black flex justify-center items-center text-md font-semibold hover:bg-gradient-to-r from-teal-500  to-teal-900 hover:text-white"> 
