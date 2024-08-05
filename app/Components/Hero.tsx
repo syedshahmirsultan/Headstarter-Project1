@@ -38,7 +38,7 @@ const Hero = () => {
                 <motion.div key={index} initial={{x:-2000}} animate={{x:0}}
                 transition={{duration:"2"
                 }} className=' w-10 h-10 rounded-full flex items-center justify-center bg-gray-600 hover:bg-gray-400 cursor-ponter'>
-                    <Link href={item.url}>{item.icon}</Link>
+                    <Link  target="_blank" href={item.url}>{item.icon}</Link>
 
                 </motion.div>
             )
@@ -47,7 +47,7 @@ const Hero = () => {
      
        </div> 
 
-       <Link href="/Shahmir-Resume.pdf"><motion.button initial={{x:-2000}} animate={{x:0}}
+       <Link href="/Shahmir-Resume.pdf"  target="_blank"><motion.button initial={{x:-2000}} animate={{x:0}}
                 transition={{duration:"2"}} className=" flex gap-x-4 items-center mt-6 py-4 px-14 border-2 border-white hover:border-teal-300  text-gray-950 hover:bg-gradient-to-r from-teal-500  to-teal-900  hover:text-gray-200  md:text-xl font-semibold bg-white rounded-md">
                     Resume <FaExternalLinkAlt size={18} />
 
