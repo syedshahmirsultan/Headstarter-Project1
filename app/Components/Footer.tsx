@@ -32,7 +32,7 @@ const Footer = () => {
             {
                 icons.map((item,index) => {
                     return (
-                      <Link href={item.url} key={index}> <div  className=' flex justify-center items-center w-8 h-8 bg-gray-700 hover:bg-gray-300 rounded-full'>{item.icon}
+                      <Link href={item.url}  target="_blank" key={index}> <div  className=' flex justify-center items-center w-8 h-8 bg-gray-700 hover:bg-gray-300 rounded-full'>{item.icon}
                       </div></Link>
                     )
                 })
