@@ -47,7 +47,7 @@ const Hero = () => {
      
        </div> 
 
-       <Link href="/Shahmir-Resume.pdf"  target="_blank"><motion.button initial={{x:-2000}} animate={{x:0}}
+       <Link href="/Shahmir Resume (2).pdf"  target="_blank"><motion.button initial={{x:-2000}} animate={{x:0}}
                 transition={{duration:"2"}} className=" flex gap-x-4 items-center mt-6 py-4 px-14 border-2 border-white hover:border-teal-300  text-gray-950 hover:bg-gradient-to-r from-teal-500  to-teal-900  hover:text-gray-200  md:text-xl font-semibold bg-white rounded-md">
                     Resume <FaExternalLinkAlt size={18} />
 
