@@ -56,7 +56,7 @@ const About = () => {
                         variants={fadeInVariants}
                         className="text-lg md:text-xl pr-2 md:pr-4 font-medium text-gray-100"
                     >
-                        I am a 17 years old High School 3rd year student who is passionate about 
+                        I am a 18 years old High School final year student who is passionate about 
                         <motion.span className="text-teal-400 font-bold"> Programming </motion.span> 
                          and 
                         <motion.span className="font-bold text-teal-400"> AI</motion.span>.
@@ -72,7 +72,7 @@ const About = () => {
                         variants={fadeInVariants}
                         className="mt-1 text-lg md:text-xl text-white font-medium"
                     >
-                        ● <motion.span className="text-teal-400 font-extrabold">Frontend </motion.span>: HTML, CSS, JavaScript, TypeScript, React, Next.js, Tailwind CSS
+                        ● <motion.span className="text-teal-400 font-extrabold">Frontend </motion.span>: HTML, CSS, JavaScript, TypeScript, React, Next.js, Tailwind CSS, Python
                     </motion.p>
                     <motion.p 
                         initial="hidden"
@@ -81,7 +81,7 @@ const About = () => {
                         variants={fadeInVariants}
                         className="mt-1 text-lg md:text-xl text-white font-medium"
                     >
-                        ● <motion.span className="text-teal-400 font-extrabold">Backend </motion.span>: Node.js, FastAPI, Python
+                        ● <motion.span className="text-teal-400 font-extrabold">Backend </motion.span>: Node.js, FastAPI
                     </motion.p>
                     <motion.p 
                         initial="hidden"
@@ -90,7 +90,7 @@ const About = () => {
                         variants={fadeInVariants}
                         className="mt-1 text-lg md:text-xl text-white font-medium"
                     >
-                        ● <motion.span className="text-teal-400 font-extrabold">Databases </motion.span>: Postgresql, Drizzle ORM, SQLModel
+                        ● <motion.span className="text-teal-400 font-extrabold">Databases </motion.span>: Postgresql, Firestore, Firebase
                     </motion.p>
                     <motion.p 
                         initial="hidden"
@@ -99,7 +99,7 @@ const About = () => {
                         variants={fadeInVariants}
                         className="mt-1 text-lg md:text-xl text-white font-medium"
                     >
-                        ● <motion.span className="text-teal-400 font-extrabold">Tools & Services </motion.span>: Stripe, Sanity, Poetry, Kinde Auth
+                        ● <motion.span className="text-teal-400 font-extrabold">Tools & Services </motion.span>: Stripe, Sanity, Poetry,UV, Kinde Auth
                     </motion.p>
                     <motion.p 
                         initial="hidden"
@@ -109,6 +109,24 @@ const About = () => {
                         className="mt-1 text-lg md:text-xl text-white font-medium"
                     >
                         ● <motion.span className="text-teal-400 font-extrabold">Libraries </motion.span>: Shadcn UI , Daisy UI
+                    </motion.p>
+                   <motion.p 
+                        initial="hidden"
+                        whileInView="visible"
+                        viewport={{ once: true }}
+                        variants={fadeInVariants}
+                        className="mt-1 text-lg md:text-xl text-white font-medium"
+                    >
+                        ● <motion.span className="text-teal-400 font-extrabold">Cloud </motion.span>: Google Cloud Platform
+                    </motion.p>
+                  <motion.p 
+                        initial="hidden"
+                        whileInView="visible"
+                        viewport={{ once: true }}
+                        variants={fadeInVariants}
+                        className="mt-1 text-lg md:text-xl text-white font-medium"
+                    >
+                        ● <motion.span className="text-teal-400 font-extrabold">Agentic SDKs </motion.span>: OpenAI Agents SDK, LangGraph
                     </motion.p>
                     <motion.p 
                         initial="hidden"
