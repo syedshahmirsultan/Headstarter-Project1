@@ -99,7 +99,7 @@ const About = () => {
                         variants={fadeInVariants}
                         className="mt-1 text-lg md:text-xl text-white font-medium"
                     >
-                        ● <motion.span className="text-teal-400 font-extrabold">Tools & Services </motion.span>: Stripe, Sanity, Poetry,UV, Kinde Auth
+                        ● <motion.span className="text-teal-400 font-extrabold">Tools & Services </motion.span>: Stripe, Sanity, Poetry, UV, Streamlit, Chainlit, Kinde Auth
                     </motion.p>
                     <motion.p 
                         initial="hidden"
