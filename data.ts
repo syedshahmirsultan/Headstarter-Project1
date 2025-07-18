@@ -21,6 +21,8 @@
 "Shadcn UI",
 "Daisy UI",
 "Zod",
+ "Streamlit",
+  "Chainlit",
 "Google Cloud",
 "OpenAI Agents SDK",
 "LangGraph"
