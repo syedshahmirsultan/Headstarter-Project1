@@ -90,7 +90,7 @@ const About = () => {
                         variants={fadeInVariants}
                         className="mt-1 text-lg md:text-xl text-white font-medium"
                     >
-                        ● <motion.span className="text-teal-400 font-extrabold">Databases </motion.span>: Postgresql, Firestore, Firebase
+                        ● <motion.span className="text-teal-400 font-extrabold">Databases </motion.span>: Postgresql, Firestore, Firebase, Pinecone
                     </motion.p>
                     <motion.p 
                         initial="hidden"
