@@ -56,10 +56,10 @@ const About = () => {
                         variants={fadeInVariants}
                         className="text-lg md:text-xl pr-2 md:pr-4 font-medium text-gray-100"
                     >
-                        I am a 18 years old High School final year student who is passionate about 
+                        I am an 18 years old High School final year student who is passionate about 
                         <motion.span className="text-teal-400 font-bold"> Programming </motion.span> 
                          and 
-                        <motion.span className="font-bold text-teal-400"> AI</motion.span>.
+                        <motion.span className="font-bold text-teal-400"> Agentic AI</motion.span>.
                     </motion.p>
                     <h2 className="text-white mt-2 tracking-wider font-extrabold text-xl md:text-2xl">
                         Technologies I work with:
