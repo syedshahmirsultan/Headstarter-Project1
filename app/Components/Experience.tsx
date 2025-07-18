@@ -72,16 +72,17 @@ const Experience = () => {
                         description={'This was a 1 month remote internship program at CodersCave, during which I successfully developed and delivered a Blog Website and a Portfolio Website.'}
                     />
                     <Details 
-                        position={'Full-Stack Web Development Intern'} 
-                        company={'Growintern'} 
-                        time={'July 2024 - August 2024'} 
-                        description={'I am currently participating in a 1 month remote internship offered by Growintern, where I am developing a Full-Stack Ecommerce Website and a Social App Website with user chat functionality.'}
-                    />
-                    <Details 
                         position={'Software Engineering Fellow'} 
                         company={'Headstarter AI'} 
                         time={'July 2024 - September 2024'} 
-                        description={'This is a 7-week remote fellowship program during which we have to complete tasks on a weekly basis. Our final project is to create a product where we aim to achieve one of the following: get 1000 people on a waitlist, create 1000 accounts, or generate $1000 in revenue.'}
+                        description={'This was a 7-week remote fellowship program during which I have to complete tasks on a weekly basis. Our final project was to create a product where we aim to get real users on our product.'}
+                    />
+
+                     <Details 
+                        position={'Software Engineering Intern'} 
+                        company={'Objex'} 
+                        time={'Jan 2025 - Present'} 
+                        description={'I work as a Backend Engineer at Objex, I design and maintain microservice-based systems using Node.js, Express, and JavaScript, with occasional services in Python and FastAPI. I’ve developed AI agents, including an SMM Agent for automated social content generation. I also fix bugs, ship backend features, and manage deployments via Google Cloud and Firestore.'}
                     />
                 </motion.ul>
             </motion.div>
