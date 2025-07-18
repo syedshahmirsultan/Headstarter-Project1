@@ -10,15 +10,19 @@
 "Fast API",
 "Node.js",
 "PostgreSQL",
-"Drizzle ORM",
-"SQLModel",
+ "Firestore",
+ "Firebase",
 "Stripe",
 "Sanity",
 "Poetry",
+"UV",
 "Kinde Auth",
 "Shadcn UI",
 "Daisy UI",
-"Zod"
+"Zod",
+"Google Cloud",
+"OpenAI Agents SDK",
+"LangGraph"
 ]
 
 export default skillsData;
