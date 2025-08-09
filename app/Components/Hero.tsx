@@ -30,7 +30,7 @@ const Hero = () => {
         transition={{duration:"2"
         }}
         className="text-white font-bold text-xl md:text-5xl"
-        > A Full-Stack Web Developer</motion.p>
+        > An Agentic AI Developer</motion.p>
        <div className="flex gap-x-4 mt-2">
         {
             icons.map((item,index)=> {
