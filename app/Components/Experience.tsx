@@ -81,7 +81,7 @@ const Experience = () => {
                      <Details 
                         position={'Software Engineering Intern'} 
                         company={'Objex'} 
-                        time={'Jan 2025 - Present'} 
+                        time={'Jan 2025 - Aug 2025'} 
                         description={'I work as a Backend Engineer at Objex, I design and maintain microservice-based systems using Node.js, Express, and JavaScript, with occasional services in Python and FastAPI. I’ve developed AI agents, including an SMM Agent for automated social content generation. I also fix bugs, ship backend features, and manage deployments via Google Cloud and Firestore.'}
                     />
                 </motion.ul>
