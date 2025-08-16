@@ -89,12 +89,12 @@ const Projects = () => {
                                         variants={fadeInVariants}
                                         className="flex gap-x-8 justify-center -mt-2 pb-4"
                                     >
-                                        <Link href={item.githubUrl} passHref>
+                                        <Link target="_blank" href={item.githubUrl} passHref>
                                             <button className="px-5 mt-4 py-2.5 text-center text-black bg-white hover:bg-gradient-to-r from-teal-500 to-teal-900 rounded-md text-md font-medium hover:text-white">
                                                 Github
                                             </button>
                                         </Link>
-                                        <Link  target="_blank" href={item.demoUrl} passHref>
+                                        <Link target="_blank" href={item.demoUrl} passHref>
                                             <button className="px-5 mt-4 py-2.5 text-center text-black bg-white hover:bg-gradient-to-r from-teal-500 to-teal-900 rounded-md text-md font-medium hover:text-white">
                                                 Visit
                                             </button>
