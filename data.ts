@@ -34,7 +34,7 @@ export default skillsData;
 export const websiteDetails = [
     {
         imageUrl:"/images/QuizzViz.png" ,
-        title:"QuizzViz Website",
+        title:"QuizzViz",
         technologiesUsed:["Next.js" ,"TypeScript","Tailwind Css","Python","FastAPI"],
         githubUrl:"https://quizzviz.com/",
         demoUrl: "https://quizzviz.com/",
