@@ -32,7 +32,14 @@ export default skillsData;
 
 
 export const websiteDetails = [
-    
+    {
+        imageUrl:"/images/QuizzViz.png" ,
+        title:"QuizzViz Website",
+        technologiesUsed:["Next.js" ,"TypeScript","Tailwind Css","Python","FastAPI"],
+        githubUrl:"https://quizzviz.com/",
+        demoUrl: "https://quizzviz.com/",
+        description:" QuizzViz is an AI-powered platform for generating secure, real-world scenario-based coding quizzes and attempt them in a secure cheting proof proctored environment."
+      },
     {
         imageUrl:"/images/blogWebsite.png" ,
         title:"Blog  Website",
