@@ -61,7 +61,7 @@ export const websiteDetails = [
         title:"Live In Pakistan Website",
         technologiesUsed:["Next.js" ,"TypeScript","Tailwind Css"],
         githubUrl:"https://github.com/syedshahmirsultan/Website",
-        demoUrl: "https://www.liveinpakistan.online/",
+        demoUrl: "https://shahmir-website.vercel.app/",
         description:"This website provides comprehensive information on Pakistan's tourist attractions, top universities, rich history, advancements in science and technology, and much more."
       },
       {
